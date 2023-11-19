@@ -1,6 +1,12 @@
 ### Overview
 The `createAppIcon` function is a JavaScript utility designed to generate app icons dynamically. It creates a PNG image with customized text, typically the initials of the app name, over a colorful background. The background can be either a solid color or a gradient, chosen randomly from a predefined set of Material Design colors.
 
+
+### Demo
+Demo is uploaded at [https://codesandbox.io/s/app-icon-generator-8l7389](https://codesandbox.io/s/app-icon-generator-8l7389)
+<br/>
+![Demo](demo.png)
+
 ### Featues
 - **Dynamic Text Extraction:** Extracts the first two letters from a single word or the first letters of the first two words from a given string.
 - **Random Backgrounds:** Selects either a solid or gradient background color from Material Design palette.
@@ -16,7 +22,3 @@ The `createAppIcon` function is a JavaScript utility designed to generate app ic
     document.getElementById('appIcon').src = createAppIcon("Example App");
 </script>
 ```
-
-### Demo
-Demo is uploaded at [https://codesandbox.io/s/app-icon-generator-8l7389](https://codesandbox.io/s/app-icon-generator-8l7389)
-[!demo.png][demo]
